@@ -76,7 +76,7 @@ h1 { font-weight: 600; font-size: 20px; color: var(--text-primary); margin-botto
 .multi-select-dropdown { display: none; position: absolute; top: 100%; left: 0; min-width: 100%; background: var(--bg-primary); border: 1px solid var(--border-color); border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); z-index: 100; margin-top: 2px; }
 .multi-select.open .multi-select-dropdown { display: block; }
 .multi-select-option { display: flex; align-items: center; gap: 6px; padding: 5px 10px; cursor: pointer; font-size: 13px; white-space: nowrap; }
-.multi-select-option:hover { background: var(--bg-secondary); }
+.multi-select-option:hover { background: var(--bg-page); }
 .multi-select-option input[type=checkbox] { margin: 0; cursor: pointer; }
 .clear-filters { font-size: 12px; color: var(--link-color); cursor: pointer; margin-left: 4px; }
 
@@ -235,7 +235,7 @@ if (document.readyState === 'loading') {
 </div>
 <div class="main">
 <h1>Assessment Report</h1>
-<div class="fact-content"><p>Checking /home/runner/work/banking-master/banking-master/package.json</p>
+<div class="fact-content"><p>Checking ./package.json</p>
 <p>Major   Potentially breaking API changes</p>
 <p> @types/react          ^18.0.17  →  ^19.2.18</p>
 <p> @types/react-dom       ^18.0.6  →   ^19.2.5</p>
@@ -245,7 +245,7 @@ if (document.readyState === 'loading') {
 <p> react-router-dom        ^6.4.0  →   ^7.18.2</p>
 <p> typescript              ^4.6.4  →    ^7.0.2</p>
 <p> vite                    ^3.1.0  →    ^8.2.2</p>
-<p>Run ncu --format group --packageFile /home/runner/work/banking-master/banking-master/package.json -u to upgrade /home/runner/work/banking-master/banking-master/package.json</p></div>
+<p>Run ncu --format group --packageFile ./package.json -u to upgrade ./package.json</p></div>
 <p class="footer">Your feedback is invaluable &mdash; <a href="https://aka.ms/ghcp-appmod/feedback">Share feedback</a></p>
 <script>
 function toggleRow(rowId, triggerRow) {

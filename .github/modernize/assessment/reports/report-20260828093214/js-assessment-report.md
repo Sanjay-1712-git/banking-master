@@ -1,4 +1,4 @@
-Checking /home/runner/work/banking-master/banking-master/package.json
+Checking ./package.json
 
 Major   Potentially breaking API changes
  @types/react          ^18.0.17  →  ^19.2.18
@@ -10,4 +10,4 @@ Major   Potentially breaking API changes
  typescript              ^4.6.4  →    ^7.0.2
  vite                    ^3.1.0  →    ^8.2.2
 
-Run ncu --format group --packageFile /home/runner/work/banking-master/banking-master/package.json -u to upgrade /home/runner/work/banking-master/banking-master/package.json
+Run ncu --format group --packageFile ./package.json -u to upgrade ./package.json
